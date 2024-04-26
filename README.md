@@ -44,3 +44,8 @@ Choose between round and square toast styles:
 Toaster.shared.setToastType(.round)   // Round corners (Default)
 Toaster.shared.setToastType(.square)  // Square corners
 ```
+
+<br><br>
+
+## ⚖️ LICENSE
+SwiftyToast is released under the MIT license. See LICENSE for details.
