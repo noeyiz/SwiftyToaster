@@ -4,7 +4,7 @@ A simple and effective toast message library for Swift!
 <br><br>
 
 ## 📸 Screenshots
-![SwiftyToast Screenshots](https://github.com/noeyiz/SwiftyToast/assets/116897060/00333b72-1e23-45a9-aea9-27cb460f1254)
+![SwiftyToast Screenshots](https://github.com/noeyiz/SwiftyToast/assets/116897060/21451918-6821-46dc-96d0-5e12509035d0)
 
 <br><br>
 
