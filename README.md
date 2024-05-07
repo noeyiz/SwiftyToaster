@@ -45,8 +45,8 @@ Toaster.shared.makeToast("Swifty Toaster", .long)    // 3.5 sec
 Choose between round and square toast styles:
 
 ```swift
-Toaster.shared.setToastType(.round)   // Round corners (Default)
-Toaster.shared.setToastType(.square)  // Square corners
+Toaster.shared.setToastType(.square)  // Square corners (Default)
+Toaster.shared.setToastType(.round)   // Round corners
 ```
 
 <br>
