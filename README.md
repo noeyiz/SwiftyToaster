@@ -12,8 +12,12 @@ A simple and effective toast message library for Swift!
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/noeyiz/SwiftyToaster.git", requirement: .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/noeyiz/SwiftyToaster.git", requirement: .upToNextMajor(from: "1.0.1"))
 ]
+```
+### CocoaPods
+```
+pod 'SwiftyToaster', '~> 1.0.1'
 ```
 
 <br><br>
@@ -48,4 +52,4 @@ Toaster.shared.setToastType(.square)  // Square corners
 <br><br>
 
 ## ⚖️ LICENSE
-SwiftyToast is released under the MIT license. See LICENSE for details.
+SwiftyToaster is released under the MIT license. See LICENSE for details.
