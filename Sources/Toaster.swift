@@ -27,7 +27,7 @@ public class Toaster {
     private lazy var backView: UIView = {
         let view = UIView()
         view.backgroundColor = .label.withAlphaComponent(0.6)
-        view.layer.cornerRadius = SwiftyToastType.square.cornerRadius
+        view.layer.cornerRadius = SwiftyToasterType.square.cornerRadius
         view.addSubview(messageLabel)
         return view
     }()
@@ -75,13 +75,13 @@ public class Toaster {
         ])
     }
     
-    public func setToastType(_ type: SwiftyToastType) {
+    public func setToastType(_ type: SwiftyToasterType) {
         backView.layer.cornerRadius = type.cornerRadius
     }
     
     // MARK: - Make Toast !!! 🍞
     
-    public func makeToast(_ message: String, _ duration: SwiftyToastDuration = .middle) {
+    public func makeToast(_ message: String, _ duration: SwiftyToasterDuration = .middle) {
         serialQueue.async {
             self.toastQueue.append(Toast(message: message, duration: duration))
             self.showNextMessage()

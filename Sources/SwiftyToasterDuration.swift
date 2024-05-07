@@ -1,6 +1,6 @@
 import Foundation
 
-public enum SwiftyToastDuration {
+public enum SwiftyToasterDuration {
     case short
     case middle
     case long

@@ -1,6 +1,6 @@
 import Foundation
 
-public enum SwiftyToastType {
+public enum SwiftyToasterType {
     case round
     case square
     

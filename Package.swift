@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyToast",
+    name: "SwiftyToaster",
     platforms: [
         .iOS(.v13) // 최소 iOS 버전 지정
     ],
     products: [
         .library(
-            name: "SwiftyToast",
-            targets: ["SwiftyToast"])
+            name: "SwiftyToaster",
+            targets: ["SwiftyToaster"])
     ],
     targets: [
         .target(
-            name: "SwiftyToast",
+            name: "SwiftyToaster",
             dependencies: [],
             path: "Sources",
-            sources: ["Toaster.swift", "Toast.swift", "SwiftyToastDuration.swift", "SwiftyToastType.swift"]
+            sources: ["Toaster.swift", "Toast.swift", "SwiftyToasterDuration.swift", "SwiftyToasterType.swift"]
         )
     ]
 )
