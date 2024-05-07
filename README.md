@@ -25,16 +25,16 @@ Create simple toast messages with just one line of code:
 ```swift
 import SwiftyToaster
 
-Toaster.shared.makeToast("Swifty Toast")
+Toaster.shared.makeToast("Swifty Toaster")
 ```
 
 ### Duration
 Control how long the toast message is displayed:
 
 ```swift
-Toaster.shared.makeToast("Swifty Toast", .short)   // 1.5 sec
-Toaster.shared.makeToast("Swifty Toast", .middle)  // 2.5 sec (Default)
-Toaster.shared.makeToast("Swifty Toast", .long)    // 3.5 sec
+Toaster.shared.makeToast("Swifty Toaster", .short)   // 1.5 sec
+Toaster.shared.makeToast("Swifty Toaster", .middle)  // 2.5 sec (Default)
+Toaster.shared.makeToast("Swifty Toaster", .long)    // 3.5 sec
 ```
 
 ### Visual Type
