@@ -1,10 +1,10 @@
-# SwiftyToast 🍞
+# SwiftyToaster 🍞
 A simple and effective toast message library for Swift!
 
 <br><br>
 
 ## 📸 Screenshots
-![SwiftyToast Screenshots](https://github.com/noeyiz/SwiftyToast/assets/116897060/21451918-6821-46dc-96d0-5e12509035d0)
+![SwiftyToaster Screenshots](https://github.com/noeyiz/SwiftyToast/assets/116897060/21451918-6821-46dc-96d0-5e12509035d0)
 
 <br><br>
 
@@ -12,7 +12,7 @@ A simple and effective toast message library for Swift!
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/noeyiz/SwiftyToast.git", requirement: .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/noeyiz/SwiftyToaster.git", requirement: .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
@@ -23,7 +23,7 @@ dependencies: [
 Create simple toast messages with just one line of code:
 
 ```swift
-import SwiftyToast
+import SwiftyToaster
 
 Toaster.shared.makeToast("Swifty Toast")
 ```
