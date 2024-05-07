@@ -1,26 +1,27 @@
-# SwiftyToaster 🍞
+# SwiftyToaster
 A simple and effective toast message library for Swift!
 
-<br><br>
+<br>
 
 ## 📸 Screenshots
-![SwiftyToaster Screenshots](https://github.com/noeyiz/SwiftyToast/assets/116897060/21451918-6821-46dc-96d0-5e12509035d0)
+![SwiftyToaster Screenshots](https://github.com/noeyiz/SwiftyToaster/assets/116897060/870999fc-fb60-4c63-a5c4-63a7cd259ad2)
 
-<br><br>
+<br>
 
 ## 🛠️ Installation
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/noeyiz/SwiftyToaster.git", requirement: .upToNextMajor(from: "1.0.1"))
+    .package(url: "https://github.com/noeyiz/SwiftyToaster.git", .upToNextMajor(from: "1.0.1"))
 ]
 ```
+
 ### CocoaPods
 ```
-pod 'SwiftyToaster', '~> 1.0.1'
+pod 'SwiftyToaster'
 ```
 
-<br><br>
+<br>
 
 ## 🚀 Usage
 ### Make Toast!
@@ -45,11 +46,11 @@ Toaster.shared.makeToast("Swifty Toaster", .long)    // 3.5 sec
 Choose between round and square toast styles:
 
 ```swift
-Toaster.shared.setToastType(.round)   // Round corners (Default)
-Toaster.shared.setToastType(.square)  // Square corners
+Toaster.shared.setToastType(.square)  // Square corners (Default)
+Toaster.shared.setToastType(.round)   // Round corners
 ```
 
-<br><br>
+<br>
 
 ## ⚖️ LICENSE
-SwiftyToaster is released under the MIT license. See LICENSE for details.
+**SwiftyToaster** is released under the MIT license. See LICENSE for details.
